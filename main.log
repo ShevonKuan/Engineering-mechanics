@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.15)  23 SEP 2020 00:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.9.15)  23 SEP 2020 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1414,94 +1414,95 @@ t;"
 dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-\c@A=\count369
-\c@B=\count370
-\c@C=\count371
-\c@D=\count372
-\c@E=\count373
-\c@F=\count374
+\c@mycontents=\count369
+\c@A=\count370
+\c@B=\count371
+\c@C=\count372
+\c@D=\count373
+\c@E=\count374
+\c@F=\count375
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 188.
-LaTeX Font Info:    ... okay on input line 188.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 199.
+LaTeX Font Info:    ... okay on input line 199.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 188.
+LaTeX Info: Redefining \selectfont on input line 199.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 188.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 188.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 188.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 188.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 188.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 188.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 188.
-LaTeX Font Info:    Redeclaring math accent \check on input line 188.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 188.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 188.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 188.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 188.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 188.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 199.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 199.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 199.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 199.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 199.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 199.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 199.
+LaTeX Font Info:    Redeclaring math accent \check on input line 199.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 199.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 199.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 199.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 199.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 188.
+(Font)              `operators' in the math version `normal' on input line 199.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 188.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 199.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 188.
+(Font)              `operators' in the math version `bold' on input line 199.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 188.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 199.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 188.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 199.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 188.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 199.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 188.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 199.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 188.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 199.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 188.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 199.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 188.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 199.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 188.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 199.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 188.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 199.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 188.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 199.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1539,7 +1540,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box147
-Package hyperref Info: Link coloring ON on input line 188.
+Package hyperref Info: Link coloring ON on input line 199.
 
 (d:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1550,11 +1551,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (d:/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count375
+\c@section@level=\count376
 )
-LaTeX Info: Redefining \ref on input line 188.
-LaTeX Info: Redefining \pageref on input line 188.
-LaTeX Info: Redefining \nameref on input line 188.
+LaTeX Info: Redefining \ref on input line 199.
+LaTeX Info: Redefining \pageref on input line 199.
+LaTeX Info: Redefining \nameref on input line 199.
 
 (./main.out) (./main.out)
 \@outlinefile=\write8
@@ -1599,40 +1600,40 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 197 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
 File: covertitle.eps Graphic file (type eps)
 <covertitle.eps>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 197
+LaTeX Font Info:    Trying to load font information for U+msa on input line 208
 .
 (d:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 197
+LaTeX Font Info:    Trying to load font information for U+msb on input line 208
 .
 
 (d:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 19
-7.
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 20
+8.
 
 (d:/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 19
-7.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 20
+8.
 
 (d:/texlive/2020/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
@@ -1728,20 +1729,20 @@ t;"
 
 ]
 Chapter 1.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 220 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 231 replaced by U+FFFD.
 File: sigmaformal.eps Graphic file (type eps)
 <sigmaformal.eps>
 (./tex/p1_c1.tex
@@ -1798,7 +1799,7 @@ dflt;"
  [1]) [2]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 229.
+(hyperref)                be the same. Added a new anchor on input line 240.
 
 
 Package fontspec Info: Could not resolve font "KaiTi/BI" (it probably doesn't
@@ -1827,21 +1828,21 @@ No file main.ind.
 \tf@thm=\write10
 \openout10 = `main.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 235.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 235.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 246.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 246.
 (./main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 235.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 235.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 246.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 246.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 06982F54B0B3A44A0093B8D490C07AC5;354.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 235.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 246.
  ) 
 Here is how much of TeX's memory you used:
- 46512 strings out of 479418
- 1104724 string characters out of 5888105
- 1577283 words of memory out of 5000000
- 63118 multiletter control sequences out of 15000+600000
- 548175 words of font info for 148 fonts, out of 8000000 for 9000
+ 46547 strings out of 479418
+ 1105221 string characters out of 5888105
+ 1577500 words of memory out of 5000000
+ 63146 multiletter control sequences out of 15000+600000
+ 551033 words of font info for 160 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,11n,119p,942b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
 

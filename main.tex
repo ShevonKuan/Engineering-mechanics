@@ -104,6 +104,16 @@
 %	boxsep=0pt,left=3pt,right=3pt,top=2pt,bottom=2pt,
 %	boxrule=0pt,leftrule=1.5pt}
 
+%目录调整
+\newcounter{mycontents}
+\newcommand{\thecontents}{\refstepcounter{mycontents} \alph{mycontents}.}
+%\titlecontents{标题名}[左间距]{标题格式}{标题标志}{无序号标题}{指引线与页码}[下间距]
+\titlecontents{chapter}
+[0cm]
+{\bf \large \vspace{0.8em} }{\contentspush{第 \thecontentslabel\ 章 \hspace*{0.8em}}}{}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
+\titlecontents{section}[1.7cm]{\bf  \vspace{0.5em} }{\contentslabel{2.4em}}{\hspace*{-2.5em} \thecontents \hspace*{0.8em}}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
+\titlecontents{subsection}[2.5cm]{\small \vspace{0.2em} }{\contentslabel{3em}}{}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
+
 \newcommand{\mybox}[2][]{
 	\begin{tcolorbox}[on line,
 		arc=0pt,outer arc=0pt,colback=#1!7!white,colframe=#1,
@@ -131,12 +141,12 @@
 %\newtheorem*{method}{\hspace{-0.16cm}\color{6a3d9a}\mybox[6a3d9a]{\color{6a3d9a}方法\addtocounter{E}{1} \thesection.\arabic{E}}}
 %\newtheorem*{example}{\hspace{-0.16cm}\color{53a9ab}\mybox[53a9ab]{\color{53a9ab}例题\addtocounter{F}{1} \thesection.\arabic{F}}}
 
-\newcommand{\theorem}[1][]{\vspace{0.5em}\par\noindent\hspace{-8pt}\mybox[2a7ae2]{\color{2a7ae2}{\CJKfamily{heiti}定理\ \con{A}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\definition}[1][]{\vspace{0.5em}\par\noindent\hspace{-8pt}\mybox[53a9ab]{\color{53a9ab}{\CJKfamily{heiti}定义\ \con{B}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\feature}[1][]{\vspace{0.5em}\par\noindent\hspace{-8pt}\mybox[ffa725]{\color{ffa725}{\CJKfamily{heiti}性质\ \con{C}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\inference}[1][]{\vspace{0.5em}\par\noindent\hspace{-8pt}\mybox[1a9850]{\color{1a9850}{\CJKfamily{heiti}推论\ \con{D}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\method}[1][]{\vspace{0.5em}\par\noindent\hspace{-8pt}\mybox[6a3d9a]{\color{6a3d9a}{\CJKfamily{heiti}方法\ \con{E}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\example}[1][]{\vspace{0.5em}\par\noindent\hspace{-8pt}\mybox[f8766d]{\color{f8766d}{\CJKfamily{heiti}例题\ \con{F}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
+\newcommand{\theorem}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[2a7ae2]{\color{2a7ae2}{\CJKfamily{heiti}定理\ \con{A}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
+\newcommand{\definition}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[53a9ab]{\color{53a9ab}{\CJKfamily{heiti}定义\ \con{B}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
+\newcommand{\feature}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[ffa725]{\color{ffa725}{\CJKfamily{heiti}性质\ \con{C}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
+\newcommand{\inference}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[1a9850]{\color{1a9850}{\CJKfamily{heiti}推论\ \con{D}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
+\newcommand{\method}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[6a3d9a]{\color{6a3d9a}{\CJKfamily{heiti}方法\ \con{E}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
+\newcommand{\example}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[f8766d]{\color{f8766d}{\CJKfamily{heiti}例题\ \con{F}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
 
 %符号设置-------------------------------
 {\color{titlepurple}}
@@ -155,7 +165,8 @@
 %章节或标题的样式-------------------
 \titleformat{\chapter}{\CJKfamily{title}\huge\color{titlepurple}}{\includegraphics[height=2cm]{sigmaformal.eps} 第\ \thechapter\ 章\ }{0pt}{}
 \titleformat{\section}{\CJKfamily{hei}\large\color{titlepurpleb}}{\bfseries{\thesection}\quad  }{0pt}{}
-\titleformat{\subsection}{\CJKfamily{hei}\large\color{titlepurplec}}{\bfseries{\thesubsection}\quad  }{0pt}{}
+\titleformat{\subsection}{\CJKfamily{hei}\large\color{titlepurplec}}{\bfseries{\thesubsection}\quad }{0pt}{}
+\titlespacing*{\subsection}{0pt}{7pt}{0pt}
 \titleformat{\subsubsection}{\CJKfamily{hei}\normalsize\color{titlepurplec}}{\bfseries{\thesubsubsection}\quad  }{0pt}{}
 \renewcommand{\nomname}{符号说明}
 %自定义优化命令-----------------------
