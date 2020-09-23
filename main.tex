@@ -70,6 +70,17 @@
 %缺省页面
 \geometry{inner=2cm,outer=2cm,bottom=1.5cm,top=2cm,marginparwidth=3.5cm,marginparsep=0.5cm,includemp}
 %\geometry{showframe,showcrop}%此句用于显示排版文本框
+
+%目录调整
+\newcounter{mycontents}
+\newcommand{\thecontents}{\refstepcounter{mycontents} \alph{mycontents}.}
+%\titlecontents{标题名}[左间距]{标题格式}{标题标志}{无序号标题}{指引线与页码}[下间距]
+\titlecontents{chapter}
+[0cm]
+{\bf \large \vspace{0.8em} }{\contentspush{第 \thecontentslabel\ 章 \hspace*{0.8em}}}{}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
+\titlecontents{section}[1.7cm]{\bf  \vspace{0.5em} }{\contentslabel{2.4em}}{\hspace*{-2.5em} \thecontents \hspace*{0.8em}}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
+\titlecontents{subsection}[2.5cm]{\small \vspace{0.2em} }{\contentslabel{3em}}{}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
+
 %字体设置-------------------------------
 \setCJKmainfont[BoldFont={SourceHanSansHC-Medium}]{SourceHanSerifSC-Regular}
 \setCJKfamilyfont{song}{SourceHanSerifSC-Regular}
@@ -80,6 +91,7 @@
 \setCJKfamilyfont{songbold}{SourceHanSerifSC-SemiBold}
 \theorembodyfont{\CJKfamily{song}}
 %\setmainfont{Times New Roman}
+
 %颜色设置-——————————
 \definecolor{f8766d}{HTML}{EA7500}
 \definecolor{1a9850}{HTML}{0097e6}
@@ -92,28 +104,19 @@
 \definecolor{titlepurplec}{HTML}{006266}
 \definecolor{md}{HTML}{EA2027}
 \definecolor{background}{HTML}{f5f5ed}
+
 %geogebra颜色
 \definecolor{zzttqq}{rgb}{0.6,0.2,0}
 \definecolor{uuuuuu}{rgb}{0.26666666666666666,0.26666666666666666,0.26666666666666666}
 \definecolor{ududff}{rgb}{0.30196078431372547,0.30196078431372547,1}
 \definecolor{xdxdff}{rgb}{0.49019607843137253,0.49019607843137253,1}
+
 %定理定义环境设置--------------------
 
 %\newtcbox{\mybox}[1][]{on line,
 %	arc=0pt,outer arc=0pt,colback=#1!10!white,colframe=#1,
 %	boxsep=0pt,left=3pt,right=3pt,top=2pt,bottom=2pt,
 %	boxrule=0pt,leftrule=1.5pt}
-
-%目录调整
-\newcounter{mycontents}
-\newcommand{\thecontents}{\refstepcounter{mycontents} \alph{mycontents}.}
-%\titlecontents{标题名}[左间距]{标题格式}{标题标志}{无序号标题}{指引线与页码}[下间距]
-\titlecontents{chapter}
-[0cm]
-{\bf \large \vspace{0.8em} }{\contentspush{第 \thecontentslabel\ 章 \hspace*{0.8em}}}{}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
-\titlecontents{section}[1.7cm]{\bf  \vspace{0.5em} }{\contentslabel{2.4em}}{\hspace*{-2.5em} \thecontents \hspace*{0.8em}}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
-\titlecontents{subsection}[2.5cm]{\small \vspace{0.2em} }{\contentslabel{3em}}{}{\titlerule*[0.5pc]{$\cdot$}\contentspage}
-
 \newcommand{\mybox}[2][]{
 	\begin{tcolorbox}[on line,
 		arc=0pt,outer arc=0pt,colback=#1!7!white,colframe=#1,
@@ -141,15 +144,16 @@
 %\newtheorem*{method}{\hspace{-0.16cm}\color{6a3d9a}\mybox[6a3d9a]{\color{6a3d9a}方法\addtocounter{E}{1} \thesection.\arabic{E}}}
 %\newtheorem*{example}{\hspace{-0.16cm}\color{53a9ab}\mybox[53a9ab]{\color{53a9ab}例题\addtocounter{F}{1} \thesection.\arabic{F}}}
 
-\newcommand{\theorem}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[2a7ae2]{\color{2a7ae2}{\CJKfamily{heiti}定理\ \con{A}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\definition}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[53a9ab]{\color{53a9ab}{\CJKfamily{heiti}定义\ \con{B}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\feature}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[ffa725]{\color{ffa725}{\CJKfamily{heiti}性质\ \con{C}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\inference}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[1a9850]{\color{1a9850}{\CJKfamily{heiti}推论\ \con{D}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\method}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[6a3d9a]{\color{6a3d9a}{\CJKfamily{heiti}方法\ \con{E}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
-\newcommand{\example}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[f8766d]{\color{f8766d}{\CJKfamily{heiti}例题\ \con{F}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.1em}\par }
+\newcommand{\theorem}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[2a7ae2]{\color{2a7ae2}{\CJKfamily{heiti}定理\ \con{A}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.5em}\par }
+\newcommand{\definition}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[53a9ab]{\color{53a9ab}{\CJKfamily{heiti}定义\ \con{B}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.5em}\par }
+\newcommand{\feature}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[ffa725]{\color{ffa725}{\CJKfamily{heiti}性质\ \con{C}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.5em}\par }
+\newcommand{\inference}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[1a9850]{\color{1a9850}{\CJKfamily{heiti}推论\ \con{D}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.5em}\par }
+\newcommand{\method}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[6a3d9a]{\color{6a3d9a}{\CJKfamily{heiti}方法\ \con{E}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.5em}\par }
+\newcommand{\example}[1][]{\vspace{1.2em}\par\noindent\hspace{-8pt}\mybox[f8766d]{\color{f8766d}{\CJKfamily{heiti}例题\ \con{F}\hspace{1em}{\CJKfamily{songbold}#1} } }\vspace{0.5em}\par }
 
 %符号设置-------------------------------
 {\color{titlepurple}}
+
 %标题配置—————————————
 \title{
 	% \begin{center}
@@ -169,6 +173,7 @@
 \titlespacing*{\subsection}{0pt}{7pt}{0pt}
 \titleformat{\subsubsection}{\CJKfamily{hei}\normalsize\color{titlepurplec}}{\bfseries{\thesubsubsection}\quad  }{0pt}{}
 \renewcommand{\nomname}{符号说明}
+
 %自定义优化命令-----------------------
 \renewcommand{\a}{\ensuremath A}%
 \renewcommand{\b}{\ensuremath B}%
@@ -178,8 +183,9 @@
 \newcommand{\md}[1]{{\,\color{purple}#1\,}}%
 \newcommand{\cf}[1]{\textit{cf.Fig~\ref{#1}}}%
 \newcommand{\margin}[1]{{\marginpar{\footnotesize\kaishu\hspace*{2em}#1}}}
-\newcommand{\f}{\bm f}
+\newcommand{\f}{\ensuremath \bm{F}}
 %\renewcommand{\chapter}[1]{{\chapter{#1}\thispagestyle{empty}} }%
+
 %使用了自定义页眉页脚---------------
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{\;第\ \thechapter\ 章\quad#1\;}{}}
@@ -195,6 +201,7 @@
 %\renewcommand{\footrulewidth}{0pt}
 \fancyheadoffset[LE,RO]{4cm}
 \fancyfootoffset[LE,RO]{4cm}
+
 %正文部分—————————————
 \begin{document}
 
@@ -206,6 +213,7 @@
 \pagenumbering{roman}
 \maketitle
 \thispagestyle{empty}
+
 %页面重新配置----------------------------
 \restoregeometry
 {\printnomenclature
@@ -215,6 +223,7 @@
 \pagenumbering{Roman}
 \setcounter{page}{0}
 \tableofcontents
+
 %色块--------------------------------------
 \nomenclature{\colorbox{f8766d}{\qquad} }{Color \texttt{\#EA7500}}
 \nomenclature{\colorbox{1a9850}{\qquad}}{Color \texttt{\#0097e6}}
@@ -227,6 +236,7 @@
 \nomenclature{\colorbox{titlepurplec}{\qquad}}{Color \texttt{\#006266}}
 \nomenclature{\colorbox{md}{\qquad}}{Color \texttt{\#EA2027}}
 \nomenclature{\colorbox{purple}{\qquad}}{Color \texttt{\#bf0040}}
+
 %正文开始—————————————---------------------------------------------------------------------------------------可以使用\boldmath输入粗斜体与\unboldmath合用
 \chapter{静力学基础}
 \pagenumbering{arabic}
