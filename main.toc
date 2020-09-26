@@ -3,4 +3,8 @@
 \contentsline {chapter}{\numberline {1}静力学基础}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}静力学基础}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}力及其性质}{1}{subsection.1.1.1}%
+\contentsline {chapter}{\numberline {2}扭转}{1}{chapter.2}%
+\contentsline {section}{\numberline {2.1}扭转的概念}{1}{section.2.1}%
+\contentsline {section}{\numberline {2.2}外力偶矩的计算}{1}{section.2.2}%
+\contentsline {section}{\numberline {2.3}扭矩和扭矩图}{1}{section.2.3}%
 \contentsfinish 
