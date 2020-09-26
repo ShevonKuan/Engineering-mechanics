@@ -36,7 +36,7 @@
 \usetikzlibrary{arrows}
 \usepackage{tikz-3dplot}%3d绘图宏包
 \usepackage{tcolorbox}%box宏包
-\usepackage{subfig}
+\usepackage{subfigure}
 \usepackage{autobreak}
 \usepackage{enumerate}
 \usepackage{wasysym}
@@ -105,6 +105,7 @@
 \definecolor{titlepurplec}{HTML}{006266}
 \definecolor{md}{HTML}{EA2027}
 \definecolor{background}{HTML}{f5f5ed}
+\definecolor{white}{HTML}{F8F8FF}
 
 %geogebra颜色
 \definecolor{zzttqq}{rgb}{0.6,0.2,0}
@@ -185,6 +186,8 @@
 \newcommand{\cf}[1]{\textit{cf.Fig~\ref{#1}}}%
 \newcommand{\margin}[1]{{\marginpar{\footnotesize\CJKfamily{kaishu}\hspace*{2em}#1}}}
 \newcommand{\f}{\ensuremath \bm{F}}
+\newcommand{\smallboxa}[2][]{\tcbox[colframe =Chocolate , colback =Coral,boxrule=0.5mm,size=small,on line]{\color{white}{\textbf{#1}}}  \index{#2@#1}\quad }
+\newcommand{\smallboxb}[1][]{\tcbox[colframe =Chocolate, colback =Coral,boxrule=0.5mm,size=small,on line]{\color{white}{\textbf{#1}}} \quad }
 %\renewcommand{\chapter}[1]{{\chapter{#1}\thispagestyle{empty}} }%
 
 %使用了自定义页眉页脚---------------

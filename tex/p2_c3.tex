@@ -25,11 +25,61 @@ $N_p$常用$\text{kw}$(千瓦)表示,而$w$常用$\text{rpm}$(转/分)表示.即
 \end{theorem}
 
 \section{扭矩和扭矩图}
+\subsection{扭矩的计算}
 
+\smallboxa[截面法]{JMF} 求内力时,在$n-n$截面处假想将轴截开取左侧为研究对象,由
+$$
+\sum M_x = 0
+$$
+可以得到
+\begin{equation}
+	T=M_\text{e}
+\end{equation}
+其中$T$就称为\md{扭矩}.(参看图\ref{扭矩1}和图\ref{扭矩2})
 
+\begin{figure}[!htbp]
+	\centering
+	
+	\subfigure[扭转总体图]{
+		\begin{minipage}[t]{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.9\linewidth]{picture/p2_c3/扭矩和扭矩图_1.eps}
+			\label{扭矩1}
+		\end{minipage}%
+	}%
+	\subfigure[扭矩图]{
+		\begin{minipage}[t]{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.9\linewidth]{picture/p2_c3/扭矩和扭矩图_4.eps}
+			\label{扭矩4}
+		\end{minipage}%
+	}%
 
+	%这个回车键很重要 \quad也可以
+	\subfigure[截面左侧]{
+		\begin{minipage}[t]{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.7\linewidth]{picture/p2_c3/扭矩和扭矩图_2.eps}
+			\label{扭矩2}
+		\end{minipage}
+	}%
+	\subfigure[截面右侧]{
+		\begin{minipage}[t]{0.5\linewidth}
+			\centering
+			\includegraphics[width=0.75\linewidth]{picture/p2_c3/扭矩和扭矩图_3.eps}
+			\label{扭矩3}
+		\end{minipage}
+	}%
+	
+	\centering
+	\caption{扭矩与扭矩图}
+\end{figure}
 
+\subsection{扭矩的符号规定}
+采用右手螺旋法则,当力偶矩矢的指向背离截面时扭矩为正,反之为负.
 
+\subsection{扭矩图}
+用平行于杆轴线的坐标 $x$ 表示横截面的位置;用垂直于杆轴线的坐标 $T$ 表示横截面上的扭矩,正的扭矩画在 $x$ 轴上方,负的扭矩画在 $x$轴下方.(参看图\ref{扭矩4})
 
 
 
