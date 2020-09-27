@@ -81,6 +81,90 @@ $$
 \subsection{扭矩图}
 用平行于杆轴线的坐标 $x$ 表示横截面的位置;用垂直于杆轴线的坐标 $T$ 表示横截面上的扭矩,正的扭矩画在 $x$ 轴上方,负的扭矩画在 $x$轴下方.(参看图\ref{扭矩4})
 
+\section{纯剪切}
+\subsection{薄壁圆筒扭转}
+\vspace{0.5em}
+\smallboxb[受力特点]
+	\begin{itemize}
+	\item 横截面上无正应力,只有切应力;
+	\item 切应力方向垂直半径或与圆周相切.
+\end{itemize}
+圆周各点处切应力的方向于圆周相切,且数值相等,近似的认为沿壁厚方向各点处切应力的数值无变化.
+
+\begin{theorem}[薄壁圆筒扭转时的切应力]
+	由扭矩$T$的定义,有
+	\margin{\\ $T$ \quad 扭矩(N/m)\\ $\tau$ \quad 切应变(Pa) \\$r$ \quad 圆筒半径(m)\\ $\delta$ \quad 圆筒厚度(m)}
+	$$
+	T = \int_A \tau \d A \cdot r = \tau \cdot r \int_A \d A = \tau \cdot r (2 \pi \cdot r \cdot \delta)
+	$$
+	即
+	\begin{equation}
+		\tau = \frac{T}{2 \pi r^2 \cdot  \delta}
+		\label{薄壁圆筒扭转时的切应力}
+	\end{equation}
+	\par 式\eqref{薄壁圆筒扭转时的切应力}为薄壁圆筒扭转时横截面上切应力的计算公式.薄壁筒扭转时横截面上的切应力均匀分布,与半径垂直,指向与扭矩的转向一致.
+\end{theorem}
+
+\subsection{切应力互等定理}
+\begin{theorem}[切应力互等定理]
+	在单元体左、右面(杆的横截面)只有切应力,其方向于 $y$ 轴平行.由平衡方程
+	$$
+	\sum F_y = 0
+	$$
+	可知两侧面的内力元素$\tau \d y \d z$大小相等,方向相反,它们组成力偶,其矩为 $(\tau \d y \d z) \d x$
+	又由平衡方程
+	$$
+	\sum F_y = 0 \quad \quad \sum M_z = 0
+	$$
+	可知在单元体的上、下两平面上必有大小相等,指向相反的一对内力元素$\tau'  \d x \d y$.\\
+	它们组成力偶,其矩为$(\tau' \d x \d y) \d z$.即
+	$$
+	(\tau \d y \d z) \d x =(\tau' \d x \d y) \d z
+	$$
+	即
+	\begin{equation}
+		\tau = \tau'
+	\end{equation}
+\par \md{单元体两个相互垂直平面上的切应力同时存在,且大小相等,都指相(或背离)该两平面的交线.}
+\end{theorem}
+
+\begin{definition}[纯剪切单元体]
+	单元体平面上只有切应力而无正应力,则称为\md{纯剪切单元体}.
+\end{definition}
+
+\subsection{剪切胡可定律}
+\begin{theorem}[剪切胡可定律]
+	\margin{\\ $\gamma\,$ \quad 纵向线变形后的倾角\\ $\varphi$ \quad 圆筒两端的相对扭转角\\ $r\,$ \quad 圆筒外半径 \\ $l\,\,$ \quad 圆筒长度(m)}
+	由几何关系得到
+	$$
+	\gamma = \frac{r \varphi}{l}
+	$$
+	薄壁圆筒的扭转试验发现,当外力偶 $M_\e$ 在某一范围内(比例极限内)时,与$M_\e$ (在数值上等于 $T$ )成正比.从 $T$ 与 $\varphi$ 之间的线性关系,可推出 $\tau$与$\gamma$ 间的线性关系.\\
+	即
+	\begin{equation}
+		\tau = G\gamma
+		\label{剪切胡克定律}
+	\end{equation}
+	式\eqref{剪切胡克定律}称为材料的\md{剪切胡克定律}.\\
+	其中$G$称为\md{切变模量},三个弹性常数的关系如下:
+	\margin{\\$E$ \quad 弹性模量\\ $G$ \quad 切变模量\\ $\mu\,$ \quad 泊松比}
+	\begin{equation}
+		G=\frac{E}{2(1+\mu)}
+	\end{equation}
+\end{theorem}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
