@@ -259,10 +259,12 @@
 
 %打印索引—————————————
 \newpage
+\newgeometry{left=2cm,right=2cm,bottom=2cm,top=2cm,marginparwidth=0cm,marginparsep=0cm}%索引设置
+\pagestyle{headings}
 \addcontentsline{toc}{chapter}{附录}
 \addcontentsline{toc}{section}{索引}
 \appendix
-\kaishu
+\CJKfamily{kaishu}
 \color{titlepurple}
 \printindex
 %———————————————

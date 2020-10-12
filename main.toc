@@ -3,15 +3,21 @@
 \contentsline {chapter}{\numberline {1}静力学基础}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}静力学基础}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}力及其性质}{1}{subsection.1.1.1}%
-\contentsline {chapter}{\numberline {2}扭转}{1}{chapter.2}%
-\contentsline {section}{\numberline {2.1}扭转的概念}{1}{section.2.1}%
-\contentsline {section}{\numberline {2.2}外力偶矩的计算}{1}{section.2.2}%
-\contentsline {section}{\numberline {2.3}扭矩和扭矩图}{1}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}扭矩的计算}{1}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}扭矩的符号规定}{1}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}扭矩图}{2}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}纯剪切}{2}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}薄壁圆筒扭转}{2}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}切应力互等定理}{2}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}剪切胡可定律}{3}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {2}材料力学的基本概念}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}基本概念与主要研究任务}{3}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}基本概念}{3}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}主要研究任务}{3}{subsection.2.1.2}%
+\contentsline {chapter}{\numberline {3}扭转}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}扭转的概念}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}外力偶矩的计算}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}扭矩和扭矩图}{5}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}扭矩的计算}{5}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}扭矩的符号规定}{5}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}扭矩图}{6}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}纯剪切}{6}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}薄壁圆筒扭转}{6}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}切应力互等定理}{6}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}剪切胡可定律}{7}{subsection.3.4.3}%
+\contentsline {chapter}{附录}{8}{equation.3.4.4}%
+\contentsline {section}{索引}{8}{section*.3}%
 \contentsfinish 
