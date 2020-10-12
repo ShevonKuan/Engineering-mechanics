@@ -15,7 +15,86 @@
 \vspace{1em}
 \noindent 1. 四方面要求
 \begin{itemize}
-	\item 强度\index{QD@强度}要求\quad 杆件在外力作用下绝对不能发生破坏,以避免经济损失和事故发生.
-	\item 刚度\index{GD@刚度}要求\quad 杆件在外力作用下不发生过分变形,以保证结构或机器正常工作.
-	\item 稳定性\index{WDX@稳定性}要求\quad 杆件在外力作用下不发生过分变形,以保证结构或机器正常工作.
+	\item 强度\index{QD@强度}要求\quad 杆件在外力作用下绝对不能发生破坏,以避免经济损失和事故发生.\\
+	\empha[在外力作用下构件抵抗破坏的能力.]
+	\item 刚度\index{GD@刚度}要求\quad 杆件在外力作用下不发生过分变形,以保证结构或机器正常工作.\\
+	\empha[在外力作用下构件抵抗变形的能力.]
+	\item 稳定性\index{WDX@稳定性}要求\quad 杆件在外力作用下不发生过分变形,以保证结构或机器正常工作.\\
+	\empha[在外力作用下保持其原有的平衡状态的能力.]
+	\item 经济要求 \quad 在符合安全性要求(前面三条)的情况下尽可能的节省材料.
 \end{itemize}
+
+\noindent 2. 主要思路
+\margin{注意:与静力学不同的是,由于力的位置对材料的变形有影响,导致内力的变化.因此,在材料力学中,力不可以随意移动.}
+\begin{center}
+	\begin{tikzpicture}[node distance=1.2cm]
+		%定义流程图具体形状
+		\node (A) [minimum height=0cm,draw, node distance=1cm,inner sep=6pt] { 变形 };
+		\node (B) [minimum height=0cm,draw, below of=A,node distance=0cm,inner sep=6pt,xshift =3.5cm] {应变分布};
+		\node (C) [minimum height=0cm,draw, below of=B,node distance=0cm,inner sep=6pt,xshift =4cm] {应力分布};
+		\node (D) [minimum height=0cm,draw, below of=C,node distance=0cm,inner sep=6pt,xshift =4cm] {应力公式};
+		
+		%连接具体形状
+		\draw[arrows={-Stealth[scale=0.8]}](A) -- (B) node[midway,left=0.1cm,above=0cm]{平面假设} ;
+		\draw[arrows={-Stealth[scale=0.8]}](B) -- (C) node[midway,left=0.1cm,above=0cm]{物理关系} ;
+		\draw[arrows={-Stealth[scale=0.8]}](C) -- (D)node[midway,left=0.1cm,above=0cm]{静力方程} ;
+	\end{tikzpicture}
+\end{center}
+
+\section{基本假设}
+\begin{enumerate}[]
+	\item\smallboxa[连续性假设]{LXXJS}\\[0.5em]
+	\hspace*{2em}认为整个物体体积内毫无空隙地充满物质.
+	\item\smallboxa[均匀性假设]{JYXJS}\\[0.5em]
+	\hspace*{2em}认为物体内的任何部分,其力学性能相同.
+	\item\smallboxa[各向同性假设]{GXTXJS}\\[0.5em]
+	\hspace*{2em} 认为在物体内各个不同方向的力学性能相同
+	\item\smallboxa[小变形性假设]{XBXXJS}\\[0.5em]
+	\hspace*{2em}变形与本身的尺寸相比很小,可忽略不计.
+	\item\smallboxa[线弹性性假设]{XTXXJS}\\[0.5em]
+	\hspace*{2em}外力与变形成正比.
+\end{enumerate}
+
+\section{内力的求法}
+
+\section{应变}
+\vspace{-1.5em}
+\begin{definition}[应力]
+单位面积上的内力\index{YL@应力},即某截面处内力的密集程度.\\
+\md{平均应力}\margin{\\ $F$ \quad 总内力大小(N)\\$A$ \quad 截面的面积($\text{m}^2$)\\$p\,$ \quad 截面的应力(Pa) }
+\begin{equation}
+	p_m = \frac{\Delta F}{\Delta A}
+\end{equation}
+\md{单点应力}
+\begin{equation}
+	p = \lim\limits_{\Delta A \to 0}\frac{\Delta F}{\Delta A}=\frac{\d F}{\d A}
+\end{equation}
+\end{definition}
+
+\begin{definition}[变形]
+	构件受力以后\index{BX@变形},形状和尺寸的变化.
+	\margin{\\ $l_1$ \quad 变形后长度(m)\\$l_0$ \quad 变形前长度(m)\\$\varepsilon\,\,$ \quad 线应变(无量纲) \\ $\alpha\,$ \quad 变形后角度(rad)\\$\gamma\,\,$ \quad 切应变(无量纲) }
+	\\
+	\md{线变形}(\md{线应变}\index{XYB@线应变})
+	\begin{equation}
+		\varepsilon = \frac{l_1-l_0}{l_0}=\frac{\Delta l}{l_0}
+	\end{equation}
+	\md{角变形}(\md{角应变},\md{切应变}\index{JYB@角应变}\index{QYB@切应变})
+	\begin{equation}
+		\gamma = \frac{\pi}{2} - \alpha
+	\end{equation}
+\end{definition}
+
+\section{杆件变形的基本形式}
+\begin{enumerate}[]
+	\item\smallboxa[二力杆]{ELG}\\[0.5em]
+	\hspace*{2em}特点:大小相等,方向相反,作用线与杆重合的力.
+	\item\smallboxa[剪切]{JQ}\\[0.5em]
+	\hspace*{2em}特点:大小相等,方向相反,相互平行的力.
+	\item\smallboxa[扭转]{NJ}\\[0.5em]
+	\hspace*{2em}特点:大小相等,方向相反,作用面都垂直于杆件轴线的两个力偶
+	\item\smallboxa[弯曲]{WQ}\\[0.5em]
+	\hspace*{2em}特点:垂直于杆件轴线的纵向平面内的一对大小相等,方向相反的力偶.
+\end{enumerate}
+
+

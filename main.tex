@@ -42,6 +42,9 @@
 \usepackage{wasysym}
 \usepackage{textcomp}
 \usepackage{marginnote}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{arrows,arrows.meta}
 \usepackage{ulem}%下划线宏包用法和样式如下：
 %\uuline{双下划线}
 %\uwave{波浪线}
@@ -106,6 +109,7 @@
 \definecolor{md}{HTML}{EA2027}
 \definecolor{background}{HTML}{f5f5ed}
 \definecolor{white}{HTML}{F8F8FF}
+\definecolor{文字底色}{HTML}{F8FF00}%强调的文字底色（目前：黄色）
 
 %geogebra颜色
 \definecolor{zzttqq}{rgb}{0.6,0.2,0}
@@ -190,6 +194,7 @@
 \newcommand{\f}{\ensuremath \bm{F}}
 \newcommand{\smallboxa}[2][]{\tcbox[colframe =Chocolate , colback =Coral,boxrule=0.5mm,size=small,on line]{\color{white}{\textbf{#1}}}  \index{#2@#1}\quad }
 \newcommand{\smallboxb}[1][]{\tcbox[colframe =Chocolate, colback =Coral,boxrule=0.5mm,size=small,on line]{\color{white}{\textbf{#1}}} \quad }
+\newcommand{\empha}[1][]{\colorbox{文字底色}{#1}}
 %\renewcommand{\chapter}[1]{{\chapter{#1}\thispagestyle{empty}} }%
 
 %使用了自定义页眉页脚---------------
@@ -242,6 +247,7 @@
 \nomenclature{\colorbox{titlepurplec}{\qquad}}{Color \texttt{\#006266}}
 \nomenclature{\colorbox{md}{\qquad}}{Color \texttt{\#EA2027}}
 \nomenclature{\colorbox{purple}{\qquad}}{Color \texttt{\#bf0040}}
+\nomenclature{\colorbox{文字底色}{\qquad}}{Color \texttt{\#F8FF00}}
 
 %正文开始—————————————---------------------------------------------------------------------------------------可以使用\boldmath输入粗斜体与\unboldmath合用
 \chapter{静力学基础}

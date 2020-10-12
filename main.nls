@@ -12,5 +12,6 @@
   \item [{\colorbox{titlepurpleb}{\qquad}}]\begingroup Color \texttt{\#833471}\nomeqref {0.0.0}\nompageref{I}
   \item [{\colorbox{titlepurplec}{\qquad}}]\begingroup Color \texttt{\#006266}\nomeqref {0.0.0}\nompageref{I}
   \item [{\colorbox{titlepurple}{\qquad }}]\begingroup Color \texttt{\#5758BB}\nomeqref {0.0.0}\nompageref{I}
+  \item [{\colorbox{文字底色}{\qquad}}]\begingroup Color \texttt{\#F8FF00}\nomeqref {0.0.0}\nompageref{I}
 
 \end{thenomenclature}

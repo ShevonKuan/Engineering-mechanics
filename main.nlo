@@ -9,3 +9,4 @@
 \nomenclatureentry{a\colorbox{titlepurplec}{\qquad}@[{\colorbox{titlepurplec}{\qquad}}]\begingroup Color \texttt{\#006266}\nomeqref {0.0.0}|nompageref}{I}
 \nomenclatureentry{a\colorbox{md}{\qquad}@[{\colorbox{md}{\qquad}}]\begingroup Color \texttt{\#EA2027}\nomeqref {0.0.0}|nompageref}{I}
 \nomenclatureentry{a\colorbox{purple}{\qquad}@[{\colorbox{purple}{\qquad}}]\begingroup Color \texttt{\#bf0040}\nomeqref {0.0.0}|nompageref}{I}
+\nomenclatureentry{a\colorbox{文字底色}{\qquad}@[{\colorbox{文字底色}{\qquad}}]\begingroup Color \texttt{\#F8FF00}\nomeqref {0.0.0}|nompageref}{I}

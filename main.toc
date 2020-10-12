@@ -7,6 +7,10 @@
 \contentsline {section}{\numberline {2.1}基本概念与主要研究任务}{3}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}基本概念}{3}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}主要研究任务}{3}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}基本假设}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}内力的求法}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}应变}{4}{section.2.4}%
+\contentsline {section}{\numberline {2.5}杆件变形的基本形式}{4}{section.2.5}%
 \contentsline {chapter}{\numberline {3}扭转}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}扭转的概念}{5}{section.3.1}%
 \contentsline {section}{\numberline {3.2}外力偶矩的计算}{5}{section.3.2}%
