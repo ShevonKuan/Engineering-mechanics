@@ -11,17 +11,20 @@
 \contentsline {section}{\numberline {2.3}内力的求法}{4}{section.2.3}%
 \contentsline {section}{\numberline {2.4}应变}{4}{section.2.4}%
 \contentsline {section}{\numberline {2.5}杆件变形的基本形式}{4}{section.2.5}%
-\contentsline {chapter}{\numberline {3}扭转}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}扭转的概念}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}外力偶矩的计算}{5}{section.3.2}%
-\contentsline {section}{\numberline {3.3}扭矩和扭矩图}{5}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}扭矩的计算}{5}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}扭矩的符号规定}{5}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}扭矩图}{6}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}纯剪切}{6}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}薄壁圆筒扭转}{6}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}切应力互等定理}{6}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}剪切胡可定律}{7}{subsection.3.4.3}%
-\contentsline {chapter}{附录}{8}{equation.3.4.4}%
-\contentsline {section}{索引}{8}{section*.3}%
+\contentsline {chapter}{\numberline {3}拉伸与压缩}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}轴向拉伸与压缩的概念}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}轴向拉伸或压缩时横截面上的内力和应力}{5}{section.3.2}%
+\contentsline {chapter}{\numberline {4}扭转}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}扭转的概念}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}外力偶矩的计算}{7}{section.4.2}%
+\contentsline {section}{\numberline {4.3}扭矩和扭矩图}{7}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}扭矩的计算}{7}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}扭矩的符号规定}{7}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}扭矩图}{8}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}纯剪切}{8}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}薄壁圆筒扭转}{8}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}切应力互等定理}{8}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}剪切胡可定律}{9}{subsection.4.4.3}%
+\contentsline {chapter}{附录}{10}{equation.4.4.4}%
+\contentsline {section}{索引}{10}{section*.3}%
 \contentsfinish 
