@@ -1,0 +1,546 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=xelatex 2020.10.11)  14 OCT 2020 22:29
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**p2_c2.tex
+(./p2_c2.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06>
+! Undefined control sequence.
+l.1 \section
+            {轴向拉伸与压缩的概念}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \section{轴
+              向拉伸与压缩的概念}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 拉 in font nullfont!
+Missing character: There is no 伸 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 压 in font nullfont!
+Missing character: There is no 缩 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 概 in font nullfont!
+Missing character: There is no 念 in font nullfont!
+! Undefined control sequence.
+l.2 \subsection
+               {变形特点和受力特点}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 变 in font nullfont!
+Missing character: There is no 形 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 受 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 端 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 外 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 变 in font nullfont!
+Missing character: There is no 形 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 沿 in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 伸 in font nullfont!
+Missing character: There is no 长 in font nullfont!
+Missing character: There is no 或 in font nullfont!
+Missing character: There is no 缩 in font nullfont!
+Missing character: There is no 短 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
+[]
+ []
+
+! Undefined control sequence.
+l.5 \subsection
+               {截面法求内力}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \subsection{截
+                 面法求内力}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 法 in font nullfont!
+Missing character: There is no 求 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+
+! LaTeX Error: Environment method undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.6 \begin{method}
+                  [截面法\index{JMF@截面法}求内力]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 法 in font nullfont!
+Missing character: There is no 求 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no ] in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 5--7
+[] 
+ []
+
+Missing character: There is no 假 in font nullfont!
+Missing character: There is no 想 in font nullfont!
+Missing character: There is no 沿 in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 8.
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 开 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+Overfull \hbox (16.55794pt too wide) in paragraph at lines 8--9
+\OML/cmm/m/it/10 m \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (8.78014pt too wide) in paragraph at lines 8--9
+\OML/cmm/m/it/10 m$ 
+ []
+
+Missing character: There is no 留 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 左 in font nullfont!
+Missing character: There is no 半 in font nullfont!
+Missing character: There is no 段 in font nullfont!
+Missing character: There is no 或 in font nullfont!
+Missing character: There is no 右 in font nullfont!
+Missing character: There is no 半 in font nullfont!
+Missing character: There is no 段 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 将 in font nullfont!
+Missing character: There is no 弃 in font nullfont!
+Missing character: There is no 去 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 留 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 代 in font nullfont!
+Missing character: There is no 替 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 留 in font nullfont!
+Missing character: There is no 下 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 写 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 平 in font nullfont!
+Missing character: There is no 衡 in font nullfont!
+Missing character: There is no 方 in font nullfont!
+Missing character: There is no 程 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 求 in font nullfont!
+Missing character: There is no 出 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 值 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{method}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \end{method}
+                 
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 \begin{definition}
+                       [轴\index{ZL@轴力}力]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no ] in font nullfont!
+! Undefined control sequence.
+l.16 ^^I\margin
+               {轴力的正负性:\\ \empha[拉$\to$正,压$\to$负]}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 负 in font nullfont!
+Missing character: There is no 性 in font nullfont!
+Missing character: There is no : in font nullfont!
+! Undefined control sequence.
+<recently read> \empha 
+                       
+l.16 ^^I\margin{轴力的正负性:\\ \empha
+                                [拉$\to$正,压$\to$负]}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 拉 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 压 in font nullfont!
+Missing character: There is no 负 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 由 in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no 外 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 作 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 也 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \end{definition}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--19
+[] 
+ []
+
+
+Overfull \hbox (20.00003pt too wide) in paragraph at lines 15--19
+\OMS/cmsy/m/n/10 !$$!$ 
+ []
+
+
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 \begin{definition}
+                       [轴力图\index{ZLT@轴力图}]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 图 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 沿 in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 线 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 变 in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no . in font nullfont!
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{definition}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.23 \section
+             {轴向拉伸或压缩时横截面上的内力和应力}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 拉 in font nullfont!
+Missing character: There is no 伸 in font nullfont!
+Missing character: There is no 或 in font nullfont!
+Missing character: There is no 压 in font nullfont!
+Missing character: There is no 缩 in font nullfont!
+Missing character: There is no 时 in font nullfont!
+Missing character: There is no 横 in font nullfont!
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 应 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 强 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 仅 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 关 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 还 in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 横 in font nullfont!
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 积 in font nullfont!
+Missing character: There is no 有 in font nullfont!
+Missing character: There is no 关 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 必 in font nullfont!
+Missing character: There is no 须 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 应 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 来 in font nullfont!
+Missing character: There is no 比 in font nullfont!
+Missing character: There is no 较 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 判 in font nullfont!
+Missing character: There is no 断 in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 件 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 强 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 拉 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 压 in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no 杆 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 横 in font nullfont!
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 轴 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+! Undefined control sequence.
+l.24 ...有关.必须用应力来比较和判断杆件的强度.在拉(压)杆的横截面上,与轴力$F_ {\n
+                                                  }$对应的应力是正应力$\sigma$.根据连续性假...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 应 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 应 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 正 in font nullfont!
+Missing character: There is no 应 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 根 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 连 in font nullfont!
+Missing character: There is no 续 in font nullfont!
+Missing character: There is no 性 in font nullfont!
+Missing character: There is no 假 in font nullfont!
+Missing character: There is no 设 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 横 in font nullfont!
+Missing character: There is no 截 in font nullfont!
+Missing character: There is no 面 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no 到 in font nullfont!
+Missing character: There is no 处 in font nullfont!
+Missing character: There is no 都 in font nullfont!
+Missing character: There is no 存 in font nullfont!
+Missing character: There is no 在 in font nullfont!
+Missing character: There is no 着 in font nullfont!
+Missing character: There is no 内 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 于 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 得 in font nullfont!
+Missing character: There is no 静 in font nullfont!
+Missing character: There is no 力 in font nullfont!
+Missing character: There is no 关 in font nullfont!
+Missing character: There is no 系 in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 20--25
+[]
+ []
+
+
+Overfull \hbox (13.00346pt too wide) in paragraph at lines 20--25
+\OML/cmm/m/it/10 F[]$$^^[$ 
+ []
+
+
+Overfull \hbox (15.00005pt too wide) detected at line 27
+\OT1/cmr/m/n/10 123
+ []
+
+)
+! Emergency stop.
+<*> p2_c2.tex
+             
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 26 strings out of 479417
+ 451 string characters out of 5892475
+ 246377 words of memory out of 5000000
+ 17645 multiletter control sequences out of 15000+600000
+ 532346 words of font info for 25 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 18i,3n,15p,123b,106s stack positions out of 5000i,500n,10000p,200000b,80000s
+No pages of output.
