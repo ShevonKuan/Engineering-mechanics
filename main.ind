@@ -11,7 +11,7 @@
   \indexspace
 
   \lettergroup{C}
-  \item 纯剪切单元体, \hyperpage{7}
+  \item 纯剪切单元体, \hyperpage{9}
 
   \indexspace
 
@@ -28,9 +28,9 @@
   \indexspace
 
   \lettergroup{J}
-  \item 截面法, \hyperpage{5}
+  \item 截面法, \hyperpage{5}, \hyperpage{7}
   \item 剪切, \hyperpage{4}
-  \item 剪切胡克定律, \hyperpage{7}
+  \item 剪切胡克定律, \hyperpage{9}
   \item 角应变, \hyperpage{4}
   \item 均匀性假设, \hyperpage{3}
 
@@ -42,16 +42,16 @@
   \indexspace
 
   \lettergroup{N}
-  \item 扭转, \hyperpage{4}, \hyperpage{5}
-  \item 扭矩图, \hyperpage{6}
+  \item 扭转, \hyperpage{4}, \hyperpage{7}
+  \item 扭矩图, \hyperpage{8}
 
   \indexspace
 
   \lettergroup{Q}
-  \item 切变模量, \hyperpage{7}
+  \item 切变模量, \hyperpage{9}
   \item 强度, \hyperpage{3}
   \item 切应变, \hyperpage{4}
-  \item 切应力互等定理, \hyperpage{6}
+  \item 切应力互等定理, \hyperpage{8}
 
   \indexspace
 
@@ -65,19 +65,25 @@
 
   \lettergroup{W}
   \item 稳定性, \hyperpage{3}
-  \item 外力偶矩, \hyperpage{5}
+  \item 外力偶矩, \hyperpage{7}
   \item 弯曲, \hyperpage{4}
 
   \indexspace
 
   \lettergroup{X}
-  \item 小变形性假设, \hyperpage{4}
-  \item 线弹性性假设, \hyperpage{4}
+  \item 小变形假设, \hyperpage{4}
+  \item 线弹性假设, \hyperpage{4}
   \item 线应变, \hyperpage{4}
 
   \indexspace
 
   \lettergroup{Y}
   \item 应力, \hyperpage{4}
+
+  \indexspace
+
+  \lettergroup{Z}
+  \item 轴力, \hyperpage{5}
+  \item 轴力图, \hyperpage{5}
 
 \end{theindex}

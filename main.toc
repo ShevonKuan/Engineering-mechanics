@@ -13,6 +13,8 @@
 \contentsline {section}{\numberline {2.5}杆件变形的基本形式}{4}{section.2.5}%
 \contentsline {chapter}{\numberline {3}拉伸与压缩}{5}{chapter.3}%
 \contentsline {section}{\numberline {3.1}轴向拉伸与压缩的概念}{5}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}变形特点和受力特点}{5}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}截面法求内力}{5}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}轴向拉伸或压缩时横截面上的内力和应力}{5}{section.3.2}%
 \contentsline {chapter}{\numberline {4}扭转}{7}{chapter.4}%
 \contentsline {section}{\numberline {4.1}扭转的概念}{7}{section.4.1}%

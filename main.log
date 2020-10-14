@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=xelatex 2020.10.2)  13 OCT 2020 13:58
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/TeX Live for SUSE Linux) (preloaded format=xelatex 2020.10.11)  14 OCT 2020 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1660,9 +1660,7 @@ Package fontspec Info: Font family 'SourceHanSansHC-Light(0)' created for font
 \tf@toc=\write9
 \openout9 = `main.toc'.
 
- [1] [2
-
-]
+ [1] [2]
 Chapter 1.
 Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 253 replaced by U+FFFD.
@@ -1725,7 +1723,9 @@ Package fontspec Info: Font family 'SourceHanSerifCN-SemiBold(0)' created for
 (fontspec)             Serif CN-SemiBold/BI/OT:script=hani;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
- [1]) [2]
+ [1
+
+]) [2]
 Chapter 2.
 File: picture/title/sigmaformal.eps Graphic file (type eps)
 <picture/title/sigmaformal.eps>
@@ -1769,7 +1769,12 @@ LaTeX Warning: The counter will not be printed.
 Chapter 3.
 File: picture/title/sigmaformal.eps Graphic file (type eps)
 <picture/title/sigmaformal.eps>
-(./tex/p2_c2.tex) [5
+(./tex/p2_c2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+) [5
 
 ] [6
 
@@ -1910,14 +1915,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 281.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3E62954A063E48009701AE3BC8D3CC99;2842.
+(rerunfilecheck)             Checksum: 9DA73E881D78A7EAACADF7662D4CE58E;3086.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
  ) 
 Here is how much of TeX's memory you used:
- 45960 strings out of 479417
- 1093653 string characters out of 5892476
- 1575075 words of memory out of 5000000
- 62548 multiletter control sequences out of 15000+600000
+ 45965 strings out of 479417
+ 1093723 string characters out of 5892475
+ 1575340 words of memory out of 5000000
+ 62553 multiletter control sequences out of 15000+600000
  551041 words of font info for 161 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  69i,12n,119p,945b,584s stack positions out of 5000i,500n,10000p,200000b,80000s
