@@ -11,6 +11,10 @@
 
 \documentclass[10pt,a4paper]{book}
 \usepackage{babel}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{multicol}
+\usepackage{multirow}
 \usepackage{ctex}
 \usepackage[dvipsnames, svgnames, x11names]{xcolor}
 \usepackage{amsmath}
@@ -185,6 +189,7 @@
 \renewcommand{\b}{\ensuremath B}%
 \renewcommand{\c}{\ensuremath C}%
 \renewcommand{\d}{\, \, \text{d}}
+\newcommand{\n}{\text{N}}
 \newcommand{\e}{\text{e}}
 \renewcommand{\o}{\ensuremath \varnothing}%
 \renewcommand{\textbf}[1]{{\CJKfamily{heiti}#1}}%
@@ -266,6 +271,10 @@
 \chapter{扭转}
 \thispagestyle{empty}
 \input{tex/p2_c3.tex}
+
+\chapter{公式总结}
+\thispagestyle{empty}
+\input{tex/p2_c4.tex}
 
 %打印索引—————————————
 \newpage

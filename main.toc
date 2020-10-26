@@ -27,6 +27,9 @@
 \contentsline {subsection}{\numberline {4.4.1}薄壁圆筒扭转}{8}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}切应力互等定理}{8}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4.4.3}剪切胡可定律}{9}{subsection.4.4.3}%
-\contentsline {chapter}{附录}{10}{equation.4.4.4}%
-\contentsline {section}{索引}{10}{section*.3}%
+\contentsline {chapter}{\numberline {5}公式总结}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}轴向拉压}{11}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}基本公式}{11}{subsection.5.1.1}%
+\contentsline {chapter}{附录}{12}{table.5.1}%
+\contentsline {section}{索引}{12}{section*.3}%
 \contentsfinish 
